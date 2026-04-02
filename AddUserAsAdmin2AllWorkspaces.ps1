@@ -8,7 +8,7 @@ Import-Module MicrosoftPowerBIMgmt.Workspaces
 Connect-PowerBIServiceAccount
 
 # 2) User to add as Admin
-$userEmail = "fab2@MngEnvMCAP331330.onmicrosoft.com"
+$userEmail = "user@domain.com"  # change to the email you want to search
 
 # 3) Admin API body for adding a user (emailAddress works for users)
 $body = @{
