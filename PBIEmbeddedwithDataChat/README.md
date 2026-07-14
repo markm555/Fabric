@@ -15,6 +15,10 @@ The only file you need to update is **appSettings.json** which initially looks l
     "ClientSecret": "YOUR_CLIENT_SECRET",
 
   },
+  "FabricDataAgent": {
+    "WorkspaceId": "",
+    "AgentId": ""
+  },
   "PowerBi": {
     "PowerBiServiceApiRoot": "https://api.powerbi.com/",
     "PowerBiServiceApiResourceId": "https://analysis.windows.net/powerbi/api",
