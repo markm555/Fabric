@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XXvg9lh1Neg=",
+  "success": true,
+  "projectFilePath": "\\\\files\\source\\repos\\TempestProjets\\DataChat\\AppOwnsData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\microsoft.identity.client\\4.66.0\\microsoft.identity.client.4.66.0.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\microsoft.powerbi.api\\4.22.0\\microsoft.powerbi.api.4.22.0.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\microsoft.rest.clientruntime.2.3.24.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\markm.MOORECASA.000\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

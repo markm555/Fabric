@@ -1,0 +1,114 @@
+﻿@model AppOwnsData.Models.ReportEmbedData
+
+<div class="container-fluid">
+
+    <div class="row mb-3">
+        <header>
+            <h1>Weather Analytics</h1>
+        </header>
+    </div>
+
+    <div class="row">
+
+        <!-- Power BI Report -->
+        <div class="col-md-9">
+
+            <div class="card h-100">
+                <div class="card-body p-0">
+
+                    <div id="report-container"
+                         style="height:100%;width:100%;">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Chat Panel -->
+        <div class="col-md-3">
+
+            <div class="card h-100">
+
+                <div class="card-header bg-primary text-white">
+                    Ask About The Weather
+                </div>
+
+                <div class="card-body d-flex flex-column">
+
+                    <!-- Message History -->
+                    <div id="chatMessages"
+                         class="border rounded p-2 mb-3"
+                         style="height:650px;overflow-y:auto;">
+
+                        <div class="text-muted">
+                            Ask questions about the Weather.
+                        </div>
+
+                    </div>
+
+                    <!-- Question Box -->
+                    <textarea id="txtQuestion"
+                          class="form-control mb-2"
+                          rows="3"
+                              placeholder="Show rainfall trends this month...">
+                    </textarea>
+
+                    <button id="btnAsk"
+                            class="btn btn-primary">
+                        Ask
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/powerbi-client/dist/powerbi.min.js"></script>
+
+<script>
+    var ReportEmbedData = {
+    ReportId: "@Model.ReportId",
+    EmbedUrl: "@Model.EmbedUrl",
+    EmbedToken: "@Model.Token"
+    };
+</script>
+
+<script src="js/index.js"></script>
+
+    $("#btnAsk").click(function () {
+
+        let question = $("#txtQuestion").val();
+
+        if (!question)
+            return;
+
+        $("#chatMessages").append(
+            `<div class="mb-2">
+                <strong>You:</strong><br/>
+                ${question}
+            </div>`
+        );
+
+        // Placeholder response until Data Agent is connected
+        $("#chatMessages").append(
+            `<div class="mb-3 text-primary">
+                <strong>Data Agent:</strong><br/>
+                Data Agent integration coming next.
+            </div>`
+        );
+
+        $("#txtQuestion").val("");
+
+        let chatDiv = document.getElementById("chatMessages");
+        chatDiv.scrollTop = chatDiv.scrollHeight;
+    });
+
+</script>
+``

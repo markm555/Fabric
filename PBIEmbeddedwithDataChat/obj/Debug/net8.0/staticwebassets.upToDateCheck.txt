@@ -1,0 +1,13 @@
+wwwroot\css\index.css
+wwwroot\favicon.ico
+wwwroot\js\index.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\powerbi-client\dist\powerbi.min.js
+wwwroot\lib\powerbi-client\LICENSE.txt
