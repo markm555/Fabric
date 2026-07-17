@@ -2,7 +2,7 @@
 This is a minimal .NET 5 sample application to embed either a standard Power BI report or a paginated report.
 I used this as a starting point and just added the Data Agent chat part to it: https://github.com/PowerBiDevCamp/AppOwnsDataHelloWorld (Thanks Ted)
 You must install the .NET 5 SDK before you can run this sample. 
-You should be able run and test the sample in either Visual Studio Code or Visual Studio 2019.
+You should be able run and test the sample in either Visual Studio Code or Visual Studio 2022.
 The only file you need to update is **appSettings.json** which initially looks like this. 
 
 ```javascript
